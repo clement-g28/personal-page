@@ -13,9 +13,9 @@
     --font-bold: 700;
 
     /* Colors */
-    --first-color: #3742fa;
-    --first-color-dark: #5352ed;
-    --first-color-darken: #4747f0;
+    --first-color: #333333;
+    --first-color-dark: #686868;
+    --first-color-darken: #555555;
     --text-color: #54423D;
     --first-color-light: #EAE7E6;
     --first-color-light-dark: #d7dcee;
@@ -727,6 +727,16 @@ img
     display: block;
     padding-left: 1rem;
 }
+
+/* ---------------------------------- Research ---------------------------- */
+
+.rsh__text
+{
+    text-align: center;
+    display: block;
+    padding-left: 1rem;
+}
+
 
 /* ---------------------------------- Footer ---------------------------- */
 .footer
