@@ -248,10 +248,10 @@ img
 
 .home__img
 {
-    padding-top: 1.3rem;
-    padding-left: .8rem;
-    width: 160px;
-    height: 160px;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    width: 200px;
+    height: 200px;
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
@@ -260,7 +260,7 @@ img
 
 .home__img img
 {
-    width: 155px;
+    width: 210px;
 }
 
 .home__title
@@ -336,6 +336,8 @@ img
 /* ------------------------- About -------------------------------- */
 .about__container
 {
+    height: calc(100vh - var(--header-height));
+    align-items: center;
     row-gap: 2rem;
 }
 
@@ -359,6 +361,7 @@ img
 
 .about__information
 {
+    margin-top: var(--mb-4);
     margin-bottom: var(--mb-4);
 }
 
@@ -734,8 +737,17 @@ img
 {
     text-align: center;
     display: block;
-    padding-left: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: var(--mb-1);
 }
+
+.rsh__link
+{
+    text-decoration: underline;
+    color:  #232ba3;
+}
+
 
 
 /* ---------------------------------- Footer ---------------------------- */

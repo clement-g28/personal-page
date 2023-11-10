@@ -9,13 +9,13 @@
     <meta name="keywords" content="portfolio template, template for portfolio, portfolio template website, portfolio template indesign, portfolio template design, portfolio template free, portfolio template architecture, portfolio template for word, portfolio template for architecture, portfolio template bootstrap, portfolio template html, teaching portfolio template, portfolio template indesign free, cover page for portfolio template, portfolio template html free">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/im-fav.png"/>
+    <!--<link rel="shortcut icon" type="image/png" href="img/profil_picture.jpeg"/>-->
 
     <!------------------ External CSS ------------------>
     <link rel="stylesheet" href="style.css">
 
     <!------------------ Box Icons ------------------>
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>-->
 </head>
 <body>
     <!------------------------ Header starts from here ----------------------->
@@ -35,8 +35,8 @@
                 </div>
 
                 <ul class="nav__list">
-                    <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
-                    <li class="nav__item"> <a href="#about" class="nav__link"> About </a></li>
+                    <!--<li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>-->
+                    <li class="nav__item"> <a href="#home" class="nav__link"> Home </a></li>
                     <li class="nav__item"> <a href="#education" class="nav__link"> Education </a></li>
                     <li class="nav__item"> <a href="#research" class="nav__link"> Research </a></li>
                 </ul>
@@ -48,11 +48,11 @@
     <!------------------------ Body starts from here ----------------------->
     <main class="l-main">
         <!------------------- Home ------------------->
-        <section class="home" id="home">
+        <!--<section class="home" id="home">
             <div class="home__container bd-grid">
                 <div class="home__data">
                     <div class="home__img">
-                        <img src="img/im.png" alt="im profile" title="im profile">
+                        <img src="img/profil_picture.jpeg" alt="im profile" title="im profile">
                     </div>
 
                     <h1 class="home__title">Clément Glédel</h1>
@@ -66,19 +66,37 @@
                     <a download="" href="#" class="button home__button">Download Resume</a>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-------------------------- About ---------------------------->
-        <section class="about section" id="about">
+        <section class="about section" id="home">
             <!--<span class="section-subtitle">About</span>-->
-            <h2 class="section-title">About</h2>
+            <!--<h2 class="section-title">About</h2>-->
 
             <div class="about__container bd-grid">
-                <div class="about__data">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="img/profil_picture.jpeg" alt="im profile" title="im profile">
+                    </div>
+                    <h1 class="home__title">Clément Glédel</h1>
+                    <span class="home__profession">Machine learning Postdoc Researcher</span>
+                    <p class="about__description">
+                        Hello, I'm Clément Glédel and I'm currently working as a machine learning postdoctoral researcher in the LITIS laboratory 
+                        at the University of Rouen until the end of the year. 
+                        I'm looking for a job as a Data Scientist from January 2024.
+                    </p>
+
+                    <!--<div class="home__social">
+                        <a href="https://www.linkedin.com/in/cl%C3%A9ment-gledel-20164214a/" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/clement-g28" class="home__social-link"><i class='bx bxl-github' ></i></a>
+                    </div>
+
+                    <a download="" href="#" class="button home__button">Download Resume</a>-->
+                    <!--
                     <p class="about__description">
                         Description.
                     </p>
-                    <img src="img/im-about.png" alt="im Berst" title="im Berst" class="about__img">
+                    <img src="img/im-about.png" alt="im profil" title="im profil" class="about__img">-->
                 </div>
 
                 <div>
@@ -89,6 +107,18 @@
                             <i class='bx bxs-envelope about__information-icon'></i>
                             <span>clement[dot]gledel[at]univ-rouen[dot]fr</span>
                         </div>
+
+                        <h3 class="about__information-title">Socials</h3>
+        
+                        <div class="about__information-data">
+                            <a href="https://www.linkedin.com/in/cl%C3%A9ment-gledel-20164214a/" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/clement-g28" class="home__social-link"><i target="_blank" class='bx bxl-github' ></i></a>
+                        </div>
+
+                        <h3 class="about__information-title">Download</h3>
+
+                        <a download="" href="https://drive.google.com/file/d/1tj6g624ku_Om32HzsZyiSfajGRncy3e9/view?usp=drive_link" target="_blank" class="button home__button">French Resume</a>
+                        <a download="" href="https://drive.google.com/file/d/12JnZnIBUaAI-vTaAbhY1Khzbak-6T7Pl/view?usp=drive_link" target="_blank" class="button home__button">English Resume</a>
                     </div>
     
                 </div>
@@ -114,7 +144,7 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">Philosophiæ doctor (PhD)</h3>
+                        <h3 class="education__race">Doctor of Philosophy (PhD) Degree</h3>
                         <span class="education__specialty">Subject: Machine Learning.<br>
                             Thesis title : Generative neural networks to solve the pre-image problem.</span>
                     </div>
@@ -132,7 +162,7 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">Engineering degree</h3>
+                        <h3 class="education__race">Engineering Degree</h3>
                         <span class="education__specialty">Subject: Computer Science with a major in digital image processing.</span>
                     </div>
                 </div>
@@ -149,7 +179,7 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">2-year technical degree</h3>
+                        <h3 class="education__race">2-year technical Degree</h3>
                         <span class="education__specialty">Subject: Electronic engineering.</span>
                     </div>
                 </div>
@@ -166,7 +196,7 @@
                     </div>
 
                     <div>
-                        <h3 class="education__race">French general certificate of secondary education</h3>
+                        <h3 class="education__race">Bachelor's Degree</h3>
                     </div>
                 </div>
             </div>
@@ -178,27 +208,37 @@
             <!--<span class="section-subtitle">About</span>-->
             <h2 class="section-title">Research</h2>
 
-            <div class="about__container">
-                <span class="section-subtitle">Publications during PhD</span>
+            <div class="works__container">
+                <span class="section-subtitle">Publications made during PhD (2022-2023)</span>
 
                 <div>
-                    <span class="rsh__text">Clément Glédel, Benoit Gaüzère, and Paul Honeine. “Graph normalizing flows to pre-image free machine learning for regression”. In: 13th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition. 2023.</span>
-                </div>
-
-                <div>
-                    <span class="rsh__text">Clément Glédel, Benoit Gaüzère, and Paul Honeine. “Normalizing flows pour éviter le problème de pré-image”. In: GRETSI 2023: XXIXe Colloque. 2023.</span>
-                </div>
-
-                <div>
-                    <span class="rsh__text">Clément Glédel, Benoit Gaüzère, and Paul Honeine. “Normalizing flow appliqué aux problèmes de pré-image de noyau”. In 24-ème Conférence d’Apprentissage automatique (CAp), pages 1–10, 2022.</span>
+                    <span class="rsh__text">
+                        <li> Clément Glédel, Benoit Gaüzère, and Paul Honeine.
+                            <a class="rsh__link" target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-031-42795-4_9">“Graph normalizing flows to pre-image free machine learning for regression”.</a> <br>
+                            In: 13th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition. 2023.
+                        </li>
+                        <li> Clément Glédel, Benoit Gaüzère, and Paul Honeine. 
+                            <a class="rsh__link" target="_blank" href="https://hal.science/hal-04189355">“Normalizing flows pour éviter le problème de pré-image”.</a> <br>
+                            In: GRETSI 2023: XXIXe Colloque. 2023.
+                        </li>
+                        <li> Clément Glédel, Benoit Gaüzère, and Paul Honeine. 
+                            <a class="rsh__link" target="_blank" href="https://normandie-univ.hal.science/hal-03749104">“Normalizing flow appliqué aux problèmes de pré-image de noyau”.</a> <br>
+                            In 24-ème Conférence d’Apprentissage automatique (CAp), pages 1–10, 2022.
+                        </li>
+                    </span>
                 </div>
             </div>
 
-            <div class="about__container">
-                <span class="section-subtitle">Publication during my 3-month internship at LIMU, Kyushu University, Japan</span>
+            <div class="works__container">
+                <span class="section-subtitle">Publication made during my 3-month internship at LIMU, Kyushu University, Japan (2018)</span>
 
                 <div>
-                    <span class="rsh__text">Clément Glédel, Hideaki Uchiyama, Yuji Oyamada, and Rin-ichiro Taniguchi. "Texture synthesis for stable planar tracking". In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (VRST '18). 2018.</span>
+                    <span class="rsh__text">
+                        <li>Clément Glédel, Hideaki Uchiyama, Yuji Oyamada, and Rin-ichiro Taniguchi. 
+                            <a class="rsh__link" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3281505.3283399">"Texture synthesis for stable planar tracking".</a> <br>
+                            In Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology (VRST '18). 2018.
+                        </li>
+                    </span>
                 </div>
             </div>
 
@@ -212,11 +252,11 @@
         <div class="footer__container bd-grid">
 
             <div class="footer__social">
-                <a href="https://www.linkedin.com/in/cl%C3%A9ment-gledel-20164214a/" class="footer__link"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/clement-g28" class="footer__link"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/cl%C3%A9ment-gledel-20164214a/" target="_blank" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/clement-g28" target="_blank" class="footer__link"><i class='bx bxl-github' ></i></a>
             </div>
 
-            <p class="footer-copy">Clément Glédel</p>
+            <p class="footer-copy">Clément Glédel 2023</p>
         </div>
     </footer>
     <!------------------------ Footer ends from here ----------------------->
