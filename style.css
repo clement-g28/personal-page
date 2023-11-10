@@ -339,6 +339,7 @@ img
     height: calc(100vh - var(--header-height));
     align-items: center;
     row-gap: 2rem;
+    margin-bottom: 10rem;
 }
 
 .about__data
@@ -477,6 +478,7 @@ img
 .education__container
 {
     row-gap: 2rem;
+    align-items: center;
 }
 
 .education__content
@@ -631,8 +633,8 @@ img
 /* ------------------------------ Works ----------------------------- */
 .works__container
 {
-    justify-items: center;
     row-gap: 2rem;
+    align-items: center;
 }
 
 .works__img
