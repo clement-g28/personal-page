@@ -735,6 +735,12 @@ img
 
 /* ---------------------------------- Research ---------------------------- */
 
+li {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+ }
+
 .rsh__text
 {
     text-align: center;
