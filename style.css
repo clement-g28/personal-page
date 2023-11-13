@@ -736,7 +736,7 @@ img
 /* ---------------------------------- Research ---------------------------- */
 
 li {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     text-align: left;
  }
@@ -747,6 +747,15 @@ li {
     display: block;
     padding-left: 5rem;
     padding-right: 5rem;
+    margin-bottom: var(--mb-1);
+}
+
+.rsh_left
+{
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
     margin-bottom: var(--mb-1);
 }
 
