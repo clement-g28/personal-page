@@ -277,6 +277,22 @@ img
     margin-bottom: var(--mb-5);
 }
 
+.home__field-title
+{
+    font-size: var(--small-font-size);
+    color: var(--first-color-darken);
+    text-align: left;
+    font-weight: var(--font-bold);
+}
+
+.home__field
+{
+    font-size: var(--small-font-size);
+    color: var(--first-color-darken);
+    text-align: left;
+    font-weight: var(--font-bold);
+}
+
 .home__social
 {
     margin-bottom: 5rem;
